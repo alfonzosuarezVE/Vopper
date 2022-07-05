@@ -1,0 +1,115 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html
+{
+    font-size: 62.5%;
+    font-family: 'Raleway', 'Inconsolata';
+}
+:root
+{
+    --white: white;
+    --black: black;
+    --dark-gray: #2C2F34;
+    --second-dark-gray: #3E404C;
+    --purple: #5864f2;
+}
+
+.main-section-wrapper
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(from 180deg at 50% 50%, #3E404C -39.37deg, #3E404C 73.13deg, #5864F2 228.75deg, #3E404C 320.63deg, #3E404C 433.12deg);
+    
+}
+
+.login-wrapper
+{
+    width: 90%;
+    max-width: 574px;
+    height: 60vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-gray);
+    border-radius: 12px;
+    border: 2px solid var(--purple);
+
+}
+.login-wrapper--title
+{
+    color: var(--white);
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 40px;
+    
+}
+.login-form
+{
+    width: 90%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.login-form input
+{
+    padding: 15px;
+    border: 2px solid var(--purple);
+    background-color: var(--second-dark-gray);
+    color: var(--white);
+    font-size: 16px;
+    border-radius: 5px;
+    
+}
+
+.form-input--email, .form-input--password
+{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 32px;
+}
+
+.form-input--login, 
+.form-input--create-account
+{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.form-input--login:hover, 
+.form-input--create-account:hover
+{
+    background-color: var(--purple);
+}
+.form-external-link
+{
+    font-size: 1.6rem;
+    color: var(--white);
+    margin-top: 24px;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+.form-external-link:hover
+{
+    font-size: 1.63rem;
+    
+}
+
+
+
+
