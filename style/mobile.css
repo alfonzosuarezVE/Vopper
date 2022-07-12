@@ -34,7 +34,9 @@ html
 {
     width: 90%;
     max-width: 574px;
-    height: 70vh;
+    min-width: 330px;
+    height: 430px;
+    max-height: 430px;
     text-align: center;
     display: flex;
     flex-direction: column;
