@@ -34,7 +34,9 @@ html
 {
     width: 90%;
     max-width: 574px;
-    height: 70vh;
+    min-width: 330px;
+    height: 600px;
+    min-height: 590px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -52,7 +54,7 @@ html
     color: var(--white);
     font-weight: 500;
     font-size: 25px;
-    margin-top: 20px;
+    margin-top: 40px;
     
     
 }
