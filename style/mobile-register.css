@@ -34,7 +34,7 @@ html
 {
     width: 90%;
     max-width: 574px;
-    height: 80vh;
+    height: 70vh;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -43,8 +43,8 @@ html
     background-color: var(--dark-gray);
     border-radius: 12px;
     border: 2px solid var(--purple);
-    overflow: scroll;
-    position: relative;
+    
+    
 
 }
 .login-wrapper--title
@@ -52,15 +52,14 @@ html
     color: var(--white);
     font-weight: 500;
     font-size: 25px;
-    position: absolute;
-    top: 25px;
+    margin-top: 20px;
+    
     
 }
 .login-form
 {
     width: 90%;
     height: 550px;
-    margin-top: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -72,9 +71,9 @@ html
     border: 2px solid var(--purple);
     background-color: var(--second-dark-gray);
     color: var(--white);
-    font-size: 16px;
+    font-size: 2rem;
     border-radius: 5px;
-    height: 60px;
+    height: 55px;
     
 }
 
@@ -82,7 +81,7 @@ html
 {
     width: 100%;
     height: 50px;
-    margin-bottom: 32px;
+    margin-bottom: 22px;
     font-family: 'Inconsolata';
     color: var(--white);
     
